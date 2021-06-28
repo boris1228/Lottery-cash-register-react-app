@@ -1,0 +1,205 @@
+.container {
+  height: 70vh;
+  margin: auto auto;
+}
+
+.header {
+  text-align: center;
+  font-size: x-large;
+}
+
+main {
+  margin: 20px auto;
+  height: 100%;
+  border: black 2px solid;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+  justify-content: space-around;
+}
+
+
+.number-container {
+  display: grid;
+  grid-template-rows: auto;
+  background-color: rgb(56, 151, 196) ;
+    border-radius:20px;
+    border: 5px solid black;
+    margin: 4px 0;   
+}
+
+.num-container {
+  padding-top: 10px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+  justify-content: right;
+  gap: 10px 10px;
+}
+
+.num-btn-container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  
+}
+
+.num-btn {
+  border-radius: 2em;
+  display: inline-flex;
+  padding: 15px 50px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: gold;
+  text-align: center;
+  font-size: large;
+}
+
+.num-btn:hover {
+  color: white;
+}
+
+.num {
+  cursor: pointer;
+  color:gold;
+	position: center;
+	padding: 1.5rem 0rem;
+	line-height: 2.5rem;
+  font-weight: bold;
+	font-size: 50px;
+  width: 100px;
+	background-color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid linear-gradient(-180deg, #89acff 0%, #c8c1c7 100%);
+	box-shadow:	0 -0.25rem 1.5rem rgb(241, 187, 7) inset,
+							0 0.75rem 0.5rem rgba(255, 200, 18, 0.685) inset,
+							0 0.25rem 0.5rem 0 rgb(255, 145, 0) inset;
+  margin: 4px 4px;
+}
+
+.num:hover {
+  color: white;
+}
+
+.num-highlight {
+  border: rgb(255, 0, 0) 5px solid;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.cash-btn,
+.clear-btn,
+.random-btn {
+  border-color: honeydew;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    padding: 5px 5px;
+    font-size: 30px;
+    width: 150px;
+    border-radius: 20px;
+  	line-height: 2.5rem;
+    display:inline-block;
+    text-align: center;
+    margin: 10px 10px;
+    cursor: pointer;
+    box-shadow:	0 -0.25rem 1.5rem rgb(20, 19, 20) inset,
+    0 0.75rem 0.5rem rgba(70, 68, 68, 0.4) inset,
+    0 0.25rem 0.5rem 0 rgb(151, 149, 149) inset;
+}
+
+
+.button-container {
+  padding: 10px;
+  align-self: center;
+  border-radius:20px;
+    font-family:sans-serif;
+    border-color:rgb(56, 151, 196) 20px ;
+  
+}
+
+.left-panel h3 {
+  text-align: center;
+}
+.button {
+  background-color: #2190eb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  color:gold;
+}
+#total{
+  bottom: 0;
+  left: 0;
+  text-decoration: bold; 
+  font-size:20px;
+  font-weight:bold;
+  }
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#img{
+  width:50%;
+  border-radius: 40px;
+  }
+
+body{
+  background-color: gold;
+  background-size: cover;
+  overflow:auto;
+  width: 100%;
+  height: 100%;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
+  padding : 5px 5px 5px 5px;
+  }
+   /**************header******************/
+   .title
+   {
+     overflow: hidden;
+     margin:0em;
+     border: 5px;
+     height: 150px;
+     color:yellow;
+     font-family:"Times New Roman", Times, serif;
+     font-size: 30px;
+     width:100%;
+     text-align: center;
+     padding: 50px;
+     border-radius: 10px;
+     background-color: rgb(56, 151, 196);
+     line-height: 25px;
+     float: center;
+    
+   }
+
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
